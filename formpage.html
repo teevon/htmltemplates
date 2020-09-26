@@ -8,49 +8,57 @@
  <div class="jumbotron">
   <div class="container">
    <div class="row">
-     <div class="form-group">
-      <div class="col-sm-3">
+    <div class="hidden-xs col-sm-3">
+      <div class="form-group">
        <label class="form-label hidden-xs">Name:</label>
       </div>
-      <div class="col-sm-9">
+    </div>
+    <div class="col-xs-12 col-sm-9">
+     <div class="form-group">
        <input type="text" name="firstname" id="form1firstname1" class="form-control" placeholder="First Name">
+     </div>
+    </div>
+   </div>
+   <div class="row">
+     <div class="hidden-xs col-sm-3">
+      <div class="form-group">
+        <label class="form-label">Salary</label>
       </div>
      </div>
-    </div>
-    <div class="row">
-    <div class="form-group">
-     <div class="col-sm-3">
-      <label class="form-label hidden-xs">Salary</label>
+     <div class="col-xs-12 col-sm-9">
+      <div class="form-group">
+        <input type="number" name="address" id="form1address1" class="form-control" placeholder="Salary">
+      </div>
      </div>
-     <div class="col-sm-9">
-      <input type="number" name="address" id="form1address1" class="form-control" placeholder="Salary">
+   </div>
+   <div class="row">
+     <div class="col-xs-12 col-sm-6">
+      <div class="form-group">
+        <select name="Gender" id="form1Gender1" class="form-control">
+         <option value="" disabled selected hidden>Choose Gender</option>
+         <option value="Male">Male</option>
+         <option value="Female">Female</option>
+        </select>
+      </div>
+     </div>
+     <div class="col-xs-12 col-sm-6">
+       <div class="form-group">
+        <select name="Department" id="form1Department1" class="form-control">
+         <option value="" disabled selected hidden>Select Department</option>
+         <option value="Biology">Biology</option>
+         <option value="Chemistry">Chemistry</option>
+         <option value="Physics">Physics</option>
+         <option value="Mathematics">Mathematics</option>
+         <option value=">Computer Enginering">Computer Enginering</option>
+        </select>
+       </div>
      </div>
     </div>
-    </div>
     <div class="row">
-        <div class="form-group">
-         <div class="col-xs-12 col-sm-6">
-          <select name="Gender" id="form1Gender1" class="form-control">
-            <option value="" disabled selected hidden>Choose Gender</option>
-              <option value="Male">Male</option>
-              <option value="Female">Female</option>
-          </select>
-         </div>
-         <div class="col-xs-12 col-sm-6">
-            <select name="Department" id="form1Department1" class="form-control">
-              <option value="" disabled selected hidden>Select Department</option>
-                <option value="Biology">Biology</option>
-                <option value="Chemistry">Chemistry</option>
-                <option value="Physics">Physics</option>
-                <option value="Mathematics">Mathematics</option>
-                <option value=">Computer Enginering">Computer Enginering</option>
-            </select>
-           </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="form-group">
-         
+        <div class="col-xs-12">
+            <div class="form-group">
+                <button type="submit" class="btn btn-success btn-block">Add Entry</button>
+            </div>
         </div>
     </div>
   </div>
